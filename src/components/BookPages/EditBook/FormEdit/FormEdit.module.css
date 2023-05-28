@@ -1,0 +1,23 @@
+.formEdit {
+    width: 70vw;
+    background-color: rgb(126, 126, 126);
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 3px rgb(224, 224, 224)
+}
+.formEdit__submit{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 760px) {
+  .formEdit {
+    width: 50vw;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .formEdit {
+    width: 40vw;
+}
+}

@@ -1,0 +1,49 @@
+.bookItem {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: solid 2px rgb(109, 109, 109);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.bookItem__col{
+    border-right: solid 2px rgb(109, 109, 109);
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: rgb(156, 38, 97);
+    font-size: 16px;
+}
+
+.bookItem__title{
+     border-bottom: solid 2px rgb(109, 109, 109);
+     border-width: 60%;
+     color: rgb(37, 34, 36);
+}
+
+.bookItem:not(:last-child){
+    margin-bottom: 15px;
+}
+.editLink {
+    text-decoration: none;
+}
+
+.bookItem__actions{
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 760px) {
+  .bookItem__col{
+    font-size: 12px;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+  .bookItem__col{
+    font-size: 14px;
+}
+}

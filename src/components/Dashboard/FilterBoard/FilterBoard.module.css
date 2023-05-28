@@ -1,0 +1,38 @@
+.filterWrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgb(42, 42, 42);
+    height: 10vh;
+}
+
+.filterWrapper, .sortDropdown{
+    font-size: 10px;
+}
+
+.filterResult {
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: 550;
+    color: lavender;
+}
+
+@media screen and (min-width: 760px) {
+  .filterWrapper, .sortDropdown{
+    font-size: 14px;
+ }
+  .filterResult {
+    margin-left: 15px;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+  .filterWrapper, .sortDropdown{
+    font-size: 18px;
+}
+  .filterResult {
+    margin-left: 20px;
+ }
+}
