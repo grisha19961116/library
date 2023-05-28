@@ -1,16 +1,6 @@
 {
   "books": [
     {
-      "id": 5,
-      "title": "Garry",
-      "author": "Gregory",
-      "category": " anime",
-      "ISBN": 12334567,
-      "createdAt": 16851888030321,
-      "editedAt": 1685213665953,
-      "status": "deactivated"
-    },
-    {
       "id": 6,
       "title": "Garry",
       "author": "Gregory",
@@ -47,8 +37,8 @@
       "category": " anime",
       "ISBN": 12334567,
       "createdAt": 1684188030321,
-      "editedAt": 1685280222865,
-      "status": "active"
+      "editedAt": 1685281169282,
+      "status": "deactivated"
     },
     {
       "id": 10,
@@ -141,16 +131,6 @@
       "id": 18
     },
     {
-      "title": "gggg",
-      "author": "gggg",
-      "category": "4444",
-      "ISBN": "4444",
-      "createdAt": 1685206948717,
-      "editedAt": "--",
-      "status": "active",
-      "id": 19
-    },
-    {
       "title": "ffff",
       "author": "ffff",
       "category": "ffff",
@@ -226,8 +206,8 @@
       "category": "Fantasy",
       "ISBN": "5555",
       "createdAt": 1685273265247,
-      "editedAt": "--",
-      "status": "active",
+      "editedAt": 1685281176031,
+      "status": "deactivated",
       "id": 28
     },
     {
@@ -239,6 +219,16 @@
       "editedAt": "--",
       "status": "active",
       "id": 29
+    },
+    {
+      "title": "hhh",
+      "author": "hhhh",
+      "category": "Fairy Tale",
+      "ISBN": "5555",
+      "createdAt": 1685281211628,
+      "editedAt": "--",
+      "status": "active",
+      "id": 30
     }
   ]
 }
